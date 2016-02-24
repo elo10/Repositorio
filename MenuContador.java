@@ -8,16 +8,16 @@ public static void main(String[] args) {
 		
 		Scanner teclado = new Scanner(System.in);
 		
-		String menu = "1º Incrementar \n";
-		menu = menu + "2º Decrementar \n";
-		menu = menu + "3º Reset \n";
-		menu = menu + "4º Salir \n";
+		String menu = "1Âº Messi \n";
+		menu = menu + "2Âº Messi \n";
+		menu = menu + "3Âº Neymar \n";
+		menu = menu + "4Âº L. Suarez \n";
 		Contador c = new Contador();
 		boolean repetir = true;
 		do{
 			System.out.println(menu);
 			c.printContador(); 
-			System.out.print("Elige una opción: ");
+			System.out.print("Elige una opciÃ³n: ");
 			int opt = teclado.nextInt();
 			
 			if(opt==1){
